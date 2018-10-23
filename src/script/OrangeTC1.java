@@ -24,11 +24,11 @@ public class OrangeTC1 extends BaseTest {
 		//verify that Dashboard Page is displayed
 		WebGeneric.verifyURL(driver, lngETO, dbURL, "Dashboard");
 		//click welcome then click logout
-		DashboardPage d=new DashboardPage(driver);
+	/*	DashboardPage d=new DashboardPage(driver);
 		d.clickWelcome();
 		d.clickLogout(lngETO);
 		//verify that login page is displayed
-		WebGeneric.verifyURL(driver, lngETO, loginURL, "Login");
+		WebGeneric.verifyURL(driver, lngETO, loginURL, "Login");*/
 		
 		
 	}
